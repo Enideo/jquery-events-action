@@ -2,7 +2,7 @@
 jQuery Action adds a new event to jQuery called "action", which is simply the equivalent of either a mouse click or pressing the enter key on a given element.
 
 # Demos and docs
-http://enideo.com/#jquery-events-action
+[http://enideo.com/#jquery-events-action][http://enideo.com/#jquery-events-action]
 
 # Future work
 
