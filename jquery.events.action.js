@@ -10,7 +10,7 @@
   $.event.special.action = {
     setup: function(data, namespaces) {
       $(this).bind('mousedown.action keypress.action', $.event.special.action.handler);
-      if('autotab' in data && data.autotab===true){
+      if(data && 'autotab' in data && data.autotab===true){
         $(this).not('*[tabindex]').attr('tabindex',0);
       }
     },
